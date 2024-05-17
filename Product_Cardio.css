@@ -1,0 +1,128 @@
+body
+{
+	background-color: white;
+}
+.logo
+{
+	text-decoration: none;
+	color: #365cad;
+	font-size: 27px;
+	padding: 14px 29px;
+	width: 20%;
+	float: left;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+.menu li
+{
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	float: left;
+	transform: translate(-25%,10%);
+	list-style-type: none;
+}
+.menu li a
+{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+ header ul li ul
+{
+	display: none;
+	position: absolute;
+	background-color: white;
+	list-style-type: none;
+	padding: 10px 45px;
+	border-radius: 0px 0px 4px 4px;
+}
+ header ul li:hover ul
+{
+	display: block;
+}
+ header ul li ul li 
+{
+	width: 180px;
+	border-radius: 4px;
+}
+ header ul li ul li a
+{
+	padding: 8px 12px;
+}
+ header ul li ul li a:hover
+{
+	background: #f3f3f3;
+}
+ h1
+{
+	transform: translate(-45%,490%);
+	font-family: 'Heebo', sans-serif;
+}
+
+.cardio1 {
+    width: 320px;
+    height: 450px;
+    transform: translate(20%, 50%);
+}
+
+.cardio2 {
+    width: 320px;
+    height: 450px;
+    transform: translate(50%, 50%);
+}
+
+.cardio3 {
+    width: 350px;
+    height: 450px;
+    transform: translate(80%, 50%);
+}
+
+.cardio4 {
+    width: 300px;
+    height: 450px;
+    transform: translate(-284%, 165%);
+}
+
+.cardio5 {
+    width: 300px;
+    height: 450px;
+    transform: translate(168%, 64%);
+}
+
+.cardio6 {
+    width: 300px;
+    height: 450px;
+    transform: translate(192%, 64%);
+}
+
+.cardio-link {
+    position: relative;
+}
+
+.cardio1:hover,
+.cardio2:hover,
+.cardio3:hover,
+.cardio4:hover,
+.cardio5:hover,
+.cardio6:hover {
+    border: 2px solid #759bd9; 
+    border-radius: 10px; 
+    animation: glowing-border 1.5s infinite alternate;
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes glowing-border {
+    0% {
+        border-color: #3883fc; 
+        box-shadow: 0 0 10px #00ff00; 
+    }
+    100% {
+        border-color: #00ff00; 
+        box-shadow: 0 0 20px #00ff00;
+    }
+}
+
+

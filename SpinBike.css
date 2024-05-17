@@ -1,0 +1,88 @@
+body
+{
+	background-color: white;
+}
+.logo
+{
+	text-decoration: none;
+	color: #365cad;
+	font-size: 27px;
+	padding: 14px 29px;
+	width: 20%;
+	float: left;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+.menu li
+{
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	float: left;
+	transform: translate(-25%,10%);
+	list-style-type: none;
+}
+.menu li a
+{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+ header ul li ul
+{
+	display: none;
+	position: absolute;
+	background-color: white;
+	list-style-type: none;
+	padding: 10px 45px;
+	border-radius: 0px 0px 4px 4px;
+}
+ header ul li:hover ul
+{
+	display: block;
+}
+ header ul li ul li 
+{
+	width: 180px;
+	border-radius: 4px;
+}
+ header ul li ul li a
+{
+	padding: 8px 12px;
+}
+ header ul li ul li a:hover
+{
+	background: #f3f3f3;
+}
+ h1
+{
+	transform: translate(20%,200%);
+	font-family: 'Heebo', sans-serif;
+}
+.highlights
+{
+	transform: translate(30%,40%);
+}
+.banner-text a
+{
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 17px;
+	padding: 15px 40px;
+	color: black;
+	display: inline-block;
+	margin-top: 5%;
+	text-transform: uppercase;
+	transform: translate(280%,180%);
+	background: white;
+	
+}
+.banner-text a:hover
+{
+	border-color: black;
+	transition: .8s;
+	color: white;
+	background: #55a7ab;
+}

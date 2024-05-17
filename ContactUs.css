@@ -1,0 +1,156 @@
+body
+{
+	background-image: url(Images/C_BG.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo
+{
+	text-decoration: none;
+	color: #365cad;
+	font-size: 27px;
+	padding: 14px 0px;
+	padding-left: 75px;
+	width: 20%;
+	float: left;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+.menu li
+{
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	float: left;
+	transform: translate(-25%,10%);
+	list-style-type: none;
+	background-color: #e0dcdc;
+}
+.menu li a
+{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.banner-text a
+{
+	text-decoration: none;
+	border: 1px solid #fff;
+	font-size: 17px;
+	padding: 15px 40px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 5%;
+	text-transform: uppercase;
+	transform: translate(-43%,600%);
+	background: #554bb3;
+	
+}
+.banner-text a:hover
+{
+	border-color: darkred;
+	transition: .8s;
+	color: #262626;
+	background: white;
+}
+.banner-area
+{
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+
+ header ul li ul
+{
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	padding: 10px 45px;
+	border-radius: 0px 0px 4px 4px;
+}
+ header ul li:hover ul
+{
+	display: block;
+}
+ header ul li ul li 
+{
+	width: 180px;
+	border-radius: 4px;
+}
+ header ul li ul li a
+{
+	padding: 8px 12px;
+}
+ header ul li ul li a:hover
+{
+	background: #f3f3f3;
+}
+
+.content-section
+{
+	transform: translate(0%,30%);
+}
+.content-section h1
+{
+	color: white;
+	transform: translate(-6%,-20%);
+	font-size: 35px;
+}
+.border
+{
+	width: 100px;
+	height: 10px;
+	background-color: #326394;
+	margin: 40px auto;
+	transform: translate(-300%,-500%);
+}
+.contact-form
+{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+	transform: translate(45%,-61%);
+	
+}
+.contact-form-text
+{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background-color: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: white;
+	transition: 0.5s;
+}
+.contact-form-text:hover
+{
+	box-shadow: 0 0 10px 4px #fff;
+}
+textarea.contact-form-text
+{
+	resize: none;
+	height: 120px;
+}
+.contact-form-btn
+{
+	float: right;
+	border: 0;
+	background: #326394;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact-form-btn:hover
+{
+	background: #54a6f7;
+}
